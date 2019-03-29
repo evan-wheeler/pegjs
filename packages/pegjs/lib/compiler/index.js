@@ -2,7 +2,7 @@
 
 const calcReportFailures = require( "./passes/calc-report-failures" );
 const generateBytecode = require( "./passes/generate-bytecode" );
-const generateJS = require( "./passes/generate-js" );
+const generateJS = require( "./passes/generate-os" );
 const removeProxyRules = require( "./passes/remove-proxy-rules" );
 const reportDuplicateLabels = require( "./passes/report-duplicate-labels" );
 const reportDuplicateRules = require( "./passes/report-duplicate-rules" );
